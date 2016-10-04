@@ -13,10 +13,73 @@
     tools:showIn="@layout/activity_main"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/popularmovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/popilar_movies"
+                />
+
+            <Button
+                android:id="@+id/stockhawk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/stockhawk"
+                />
+
+            <Button
+                android:id="@+id/builditbiger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/build_it_biger"
+                />
+
+            <Button
+                android:id="@+id/makeyourappmaterail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/make_your_app_material"
+                />
+
+            <Button
+                android:id="@+id/goubiquitous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/go_ubiquitous"
+                />
+
+            <Button
+                android:id="@+id/capstonee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/capstone"
+                />
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
