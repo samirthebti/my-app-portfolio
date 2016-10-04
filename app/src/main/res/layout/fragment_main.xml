@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical"
+            android:layout_marginTop="@dimen/fragment_top_margin"
             >
 
             <Button
